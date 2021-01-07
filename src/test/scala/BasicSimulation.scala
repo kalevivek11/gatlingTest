@@ -9,7 +9,7 @@ class BasicItSimulation extends Simulation {
                            "Content-Type" -> "application/json")
   
   val httpProtocol = http
-    .baseUrl("https://sbxgw.ecosystem-a2.posti.fi:443") // Here is the root for all relative URLs
+    .baseUrl("https://***.ecosystem-a2.***.fi:443") // Here is the root for all relative URLs
     
 
   val scn = scenario("Scenario Name") // A scenario is a chain of requests and pauses
